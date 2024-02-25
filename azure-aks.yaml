@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: az-devops
-        image: c9container.azurecr.io/cloud9labz/az-devops:latest
+        image: aksstackacr.azurecr.io/cloud9labz/az-devops:latest
         ports:
         - containerPort: 5000
 # service type loadbalancer       
